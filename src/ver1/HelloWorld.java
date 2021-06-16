@@ -1,5 +1,5 @@
 package ver1;
-
+import java.util.*;
 public class HelloWorld {
 
 	public static void main(String[] args) {
@@ -11,6 +11,13 @@ public class HelloWorld {
 	public static void heyNow() {
 		String Msg = "Hey Now!";
 		System.out.println(Msg);
+	}
+	
+	public static void whatFor() {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a string: ");
+		String str = sc.nextLine();
+		System.out.println(str + ", what for?");
 	}
 
 
